@@ -1,0 +1,80 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circleimageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/profiler"
+			app:civ_border_width="3dp"
+			app:civ_border_color="#008DCD"
+			app:civ_circle_background_color="#FFFFFF"
+			app:civ_border_overlay="true" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="UserName"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="John"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Doeful"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="85 followers"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="12 stories"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|bottom"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Notifications"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#4DB6AF"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal"
+			android:alpha="0.85">
+			<CheckBox
+				android:id="@+id/checkbox1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Comments"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<CheckBox
+				android:id="@+id/checkbox2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="New stories"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<CheckBox
+				android:id="@+id/checkbox3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="New follower "
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:padding="8dp"
+			android:text="Preferences"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#4DB6AF"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal"
+			android:alpha="0.85">
+			<CheckBox
+				android:id="@+id/checkbox4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Show adult content"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<CheckBox
+				android:id="@+id/checkbox5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Hide profile picture"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#4DB6AF"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal"
+			android:alpha="0.85">
+			<CheckBox
+				android:id="@+id/checkbox6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Show comment time"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<CheckBox
+				android:id="@+id/checkbox7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Disable ads"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"
+			android:layout_marginTop="8dp"
+			android:padding="8dp"
+			android:background="#4DB6AF"
+			android:text="Apply"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="360dp"
+			android:padding="8dp"
+			android:orientation="horizontal" />
+	</LinearLayout>
+</LinearLayout>

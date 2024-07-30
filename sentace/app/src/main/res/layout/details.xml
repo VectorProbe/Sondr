@@ -1,0 +1,60 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#26A69A"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="64dp"
+			android:layout_height="64dp"
+			android:layout_marginBottom="16dp"
+			android:src="@drawable/flower2"
+			android:scaleType="centerCrop"
+			android:scaleX="2.0"
+			android:scaleY="2.0" />
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circleimageview1"
+			android:layout_width="64dp"
+			android:layout_height="64dp"
+			android:layout_marginTop="16dp"
+			android:src="@drawable/ic_person_black"
+			app:civ_border_width="3dp"
+			app:civ_border_color="#008DCD"
+			app:civ_circle_background_color="#FFFFFF"
+			app:civ_border_overlay="true" />
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="256dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="18dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:textSize="16sp"
+			android:textColor="#000000"
+			android:hint="Username"
+			android:textColorHint="#CFD8DC"
+			android:lines="1"
+			android:imeOptions="actionDone" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"
+			android:layout_marginTop="16dp"
+			android:padding="8dp"
+			android:background="#4DB6AF"
+			android:text="Confirm"
+			android:textSize="14sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

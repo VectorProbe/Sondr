@@ -1,0 +1,115 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingTop="8dp"
+		android:background="#009688"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingTop="8dp"
+			android:background="#009688"
+			android:orientation="vertical"
+			android:layout_gravity="top|bottom">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:hint="add a title"
+				android:textColorHint="#CFD8DC"
+				android:singleLine="true"
+				android:imeOptions="actionDone"
+				android:layout_gravity="center_horizontal" />
+			<LinearLayout
+				android:id="@+id/container"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:background="#26A69A"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<ScrollView
+					android:id="@+id/storyScroll"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+					<EditText
+						android:id="@+id/edittext6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="left"
+						android:textSize="14sp"
+						android:textColor="#000000"
+						android:hint="story (at least 130 words)"
+						android:textColorHint="#CFD8DC" />
+				</ScrollView>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#009688"
+				android:gravity="center_horizontal|bottom"
+				android:orientation="vertical"
+				android:layout_gravity="bottom">
+				<LinearLayout
+					android:id="@+id/props"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal"
+					android:orientation="horizontal"
+					android:layout_weight="1">
+					<CheckBox
+						android:id="@+id/checkbox2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Allow comments"
+						android:textSize="14sp"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/textview1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dp"
+						android:paddingTop="8dp"
+						android:paddingBottom="8dp"
+						android:text="Genre:"
+						android:textSize="14sp"
+						android:textColor="#000000" />
+					<Spinner
+						android:id="@+id/gerene"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="2dp"
+						android:paddingRight="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="64dp"
+					android:layout_height="32dp"
+					android:padding="8dp"
+					android:background="#4DB6AF"
+					android:text="submit"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
